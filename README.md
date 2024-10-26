@@ -37,7 +37,7 @@ class Lingkaran extends BangunDatar {
     }
 }
 ```
-###  • Penjelasan :
+###  Penjelasan :
 ```
 - Kelas Lingkaran adalah turunan dari BangunDatar.
 - Variabel r mewakili radius (jari-jari) lingkaran.
@@ -46,7 +46,7 @@ class Lingkaran extends BangunDatar {
 - Method keliling(): Menghitung keliling lingkaran menggunakan rumus 2 × π × r.
 ```
 
-##  • Class Segita
+##  • Class Segitiga
 ```java
 class Segitiga extends BangunDatar {
     int alas, tinggi;
@@ -65,7 +65,7 @@ class Segitiga extends BangunDatar {
     }
 }
 ```
-###  • Penjelasan :
+###  Penjelasan :
 ```
 - Kelas Segitiga adalah turunan dari BangunDatar.
 - Variabel alas dan tinggi mewakili alas dan tinggi segitiga.
@@ -92,7 +92,7 @@ class Persegi extends BangunDatar {
     }
 }
 ```
-###  • Penjelasan :
+###  Penjelasan :
 ```
 - Kelas Persegi adalah turunan dari BangunDatar.
 - Variabel sisi mewakili panjang sisi persegi.
@@ -118,17 +118,15 @@ public class Utama {
     }
 }
 ```
-###  • Penjelasan :
+###  Penjelasan :
 ```
 - Utama adalah kelas utama (main class) yang mengandung metode main, titik awal eksekusi program.
 - Di dalam main:
-- Objek lingkaran dari kelas Lingkaran dibuat dengan radius 7.
-- Objek segitiga dari kelas Segitiga dibuat dengan alas 5 dan tinggi 10.
-- Objek persegi dari kelas Persegi dibuat dengan panjang sisi 4.
-- Program mencetak hasil luas dan keliling dari setiap bentuk (lingkaran, segitiga, dan persegi) dengan memanggil metode luas() dan keliling() dari masing-masing objek.
+ - Objek lingkaran dari kelas Lingkaran dibuat dengan radius 7.
+ - Objek segitiga dari kelas Segitiga dibuat dengan alas 5 dan tinggi 10.
+ - Objek persegi dari kelas Persegi dibuat dengan panjang sisi 4.
+ - Program mencetak hasil luas dan keliling dari setiap bentuk (lingkaran, segitiga, dan persegi) dengan memanggil metode luas() dan keliling() dari masing-masing objek.
 ```
 
-
-
-
-
+# Output :
+![gambar](Tugas-Pemrograman-Orientasi-Objek-Pert-6/ss2.png)
